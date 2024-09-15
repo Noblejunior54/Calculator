@@ -1,0 +1,53 @@
+body{
+  background: #dad2bca2;
+}
+
+#display {
+  width:300px ;
+  height:90px;
+  border: none;
+  background: grey;
+  border-radius: 10px;
+  color: white;
+  font-size: 30px;
+  
+  }
+  #btn1 button{
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    font-size: 20px;
+    border:none;
+    padding:10px;
+    color: white;
+    background: grey;
+  }
+  button{
+    color: red;
+    margin:10px;
+    background: orange;
+    opacity: 0.9;
+  }
+  
+  #btn2 button{
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    background: orange;
+    color: white;
+    border: none;
+    margin: 10px;
+    font-size: 30px;
+  }
+  
+  #btn3 button{
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    background: orange;
+    color: white;
+    border: none;
+    margin:10px;
+    font-size: 30px;
+    margin-left:;
+  }

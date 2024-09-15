@@ -1,10 +1,18 @@
-const check="head1";
-function cliik(){
-alert(document.getElementById("head").checked)
-if(check=="head1"){
-  alert("hi")
+var val=document.getElementById("display");
+function Add(v){
+  val.value=val.value+v;
 }
-else{
-  alert("no")
+
+function clr(){
+  val.value=""
 }
-};
+
+function exe(){
+  val.value=eval(val.value);
+}
+
+
+//my delete button but am not using it
+function del(){
+  val.value=substr(0,val.lenght-1)
+}
